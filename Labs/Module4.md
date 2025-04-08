@@ -1,5 +1,5 @@
 # Lab 04: Code scanning
-### Estimated Duration: 45 minutes
+### Estimated Duration: 90 minutes
 
 In this lab, You will set up code scanning in Azure DevOps using GitHub Advanced Security to analyze code for security vulnerabilities and errors. You will review code scanning alerts, fix identified issues in the code, and dismiss resolved alerts, thereby enhancing the security of their codebase.
 
@@ -32,6 +32,10 @@ Code Scanning in GitHub Advanced Security for Azure DevOps enables automated ana
 
    You can learn more about Code scanning with DevOps advance secutiy [here.](https://learn.microsoft.com/en-us/azure/devops/repos/security/github-advanced-security-code-scanning?view=azure-devops)
    If you turn off Advanced Security for your repository, you lose access to the results in the Advanced Security tab and build task. The build task does not fail, but any results from builds run with the task while Advanced Security is disabled are hidden and not retained. As we have already enabled the Advanced security for the Repositry, and have added all the required task in pipeline to generate the alerts, you should be able to see the results in advanced security dashboard.
+    > **Note:** Before proceeding, ensure that **Advanced Security (2)** is still turned on for your repository, as shown in the image below.  
+    > You can refer to **Task 2 of Lab 1** if you need help locating the **Advanced Security (2)** settings.
+
+    > ![setup](media/06-26-2024(5).png)
 
 ### Task 2: Review Code Scanning Alert (Gain Insights)
 

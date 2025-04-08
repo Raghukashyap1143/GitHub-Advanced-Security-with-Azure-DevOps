@@ -1,5 +1,5 @@
 # Lab 05: Microsoft Defender for Cloud DevOps security 
-### Estimated Duration: 30 minutes
+### Estimated Duration: 60 minutes
 
 In this lab, we connect the Azure DevOps environment to Microsoft Defender for Cloud to enhance DevOps security. We will explore the DevOps security findings and inventory provided by Microsoft Defender for Cloud to review their security posture.
 
