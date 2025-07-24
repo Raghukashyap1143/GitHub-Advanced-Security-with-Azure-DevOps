@@ -39,13 +39,15 @@ Code Scanning in GitHub Advanced Security for Azure DevOps enables automated ana
 
 ### Task 2: Review Code Scanning Alert (Gain Insights)
 
-1. Go to the **Repos** tab and click on the **Advanced Security** menu at the bottom.
+In this task, you’ll explore the Advanced Security dashboard to view active code scanning alerts. By inspecting alert details—like severity, code location, and detection history—you’ll gain a deeper understanding of the risks in your codebase and how to fix them effectively.
 
-1. Click on **Code scanning** to see a list of all the code scanning alerts that have been found. This includes the alert, vulnerable code details, and first detected date.
+1. Go to the **Repos** **(1)** tab and click on the **Advanced Security** **(2)** menu at the bottom.
+
+1. Click on **Code scanning** **(3)** to see a list of all the **code scanning alerts** **(4)** that have been found. This includes the alert, vulnerable code details, and first detected date.
 
     ![code_alert_detected](media/codesnglaetrsd.png)
 
-#### Code scanning Alert Details
+### Code scanning Alert Details
 
 1. Click on the item ***Uncontrolled command line...*** to see the details about this alert.
 
@@ -62,6 +64,8 @@ Code Scanning in GitHub Advanced Security for Azure DevOps enables automated ana
     **ProTip!** When a vulnerable code is no longer detected in the latest build for pipelines with the dependency scanning task, the state of the associated alert is automatically changed to Closed. To see these resolved alerts, you can use the **State filter** in the main toolbar and select **Closed**.
 
 ### Task 3: Fixing the Code to resolve the alert
+
+In this task, you’ll address a specific code scanning alert (e.g., an uncontrolled command line input) by directly editing the vulnerable code in the Azure DevOps editor. You'll create a new branch, commit your fix, and validate it through a pull request and pipeline run.
 
 1. This is simple to fix using parameters in the command line described in the remediation steps.
 
@@ -114,6 +118,8 @@ __{drive}__ using a query, we can directly define it as __C__ for the string dri
 
 Once after the completion of the build from the **main branch**, if you navigate to the __Code scanning__ section of __Advanced Security__. You will find the alert is closed automatically.
 
+   ![Pipelinealerts](media/devopsadvsec1004.png)
+
 ## Review
 In this lab, you have completed the following:
 
@@ -122,4 +128,4 @@ In this lab, you have completed the following:
 - Fixed the Code to resolve the alert.
 - Dismissed the code scanning alerts. 
 
-### You have successfully completed the lab!
+### You have successfully completed the lab! Click on "Next >>" to contine with your next lab

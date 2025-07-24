@@ -16,6 +16,8 @@ In this lab, you will perform the following:
 
 ### Task 1: Connect Azure DevOps Environment to Microsoft Defender for Cloud
 
+In this task, you will integrate your Azure DevOps organization with Microsoft Defender for Cloud. This connection enables security insights across your CI/CD pipeline, repositories, and dependencies. You'll authorize access, configure the environment, and prepare the connection to collect DevOps security data.
+
 1. Open a new tab, navigate to `portal.azure.com` and sign in using the below credentials:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -99,3 +101,5 @@ In this lab, you have completed the following:
 
 -  Connected Azure DevOps Environment to Microsoft Defender for Cloud.
 -  Understood your DevOps security.
+
+## congratulations!!! You have successfully completed the Hands-on Lab.

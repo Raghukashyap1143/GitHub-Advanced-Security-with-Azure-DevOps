@@ -22,7 +22,7 @@ Once this is toggled on, it starts off a background scan of this repo and looks 
 
 ### Task 1: Viewing alerts of repository
 
-The Advanced Security Alert Hub is where all alerts are raised and where we gain insights, specifically under the category of Secrets. When a secret is found, you can click on it to access more information. The secret may be located in different places, including various commits. 
+In this task, you’ll explore how Azure DevOps Advanced Security flags exposed secrets in your repository. You’ll view active alerts, understand the metadata associated with them, and learn where secrets were introduced in the code.
    
 1. Go to the **Repos** tab from left side menu and click on the **Advanced Security** menu item at the bottom.
 
@@ -42,7 +42,7 @@ Once a credential touches the repo, it's too late. Hackers might have already ex
 
  **Note:** Good news! GHAzDO focuses on preventing this in the first place. Bad news! These need to be manually fixed. There isn't an easy button.
 
-#### Push Protection demonstration
+### Push Protection demonstration
 
 Push Protection helps protect your repository by preventing unauthorized or malicious code from being pushed to your repository's branches.
 
@@ -151,7 +151,9 @@ Dismissing secret scanning alerts in Azure DevOps allows you to acknowledge and 
 
 You can follow the below steps to dismiss the alert.
 
-1. Once the pipeline **eShoponWeb** has been completed, from the left navigation pane under **Repos**, go to the Azure DevOps **Advanced Security** dashboard and click on **Secrets**.
+1. Once the pipeline **eShoponWeb** has been completed, from the left navigation pane under **Repos** **(1)**, go to the Azure DevOps **Advanced Security** **(2)** dashboard and click on **Secrets** **(3)**.
+
+    ![Adv Security](media/devopsadvsec.png)
 
     >**Note:** You can check the pipeline status by navigating to the pipeline section from the left side menu, usually it takes about 5 minutes to complete the execution. 
 
@@ -176,4 +178,4 @@ In this lab, you have completed the following:
 - Fixed secret scanning alerts.
 - Dismissed secret scanning alerts.
 
-### You have successfully completed the lab!
+### You have successfully completed the lab! Click on "Next >>" to contine with your next lab

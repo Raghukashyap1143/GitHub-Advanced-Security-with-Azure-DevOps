@@ -16,6 +16,8 @@ In this lab, you will perform:
 
 ## Task 1: Sign up and configure the eShopOnWeb team project in Azure DevOps
 
+In this task, we created a new Azure DevOps organization and project, configured billing, and set up required policies. We also used the Demo Generator tool and integrated a PAT into the code to simulate a secret.
+
 1. Search for Edge in the Windows Search bar, select it and navigate to **Azure DevOps** using the link below. Select **Start Free**, and sign in with the credentials provided in the Environment variables.
 
    ```
@@ -135,9 +137,11 @@ In this lab, you will perform:
 
     ![Dependencies](media/mar12-5.png)
 
-1. Wait for the build to complete (1), then select **Start** from the top menu to run the project.
+1. Wait for the build to complete (1), then select **Start** **(2)** from the top menu to run the project.
 
     ![Dependencies](media/mar12-6.png)
+
+1. Azure DevOps Demo Generator prompts you to choose between creating a new project or generating artifacts in an existing one. Enter **1** to **create a new project using the demo generator project template**.
 
 1. When prompted, enter the following details to create the **eShopOnWeb** project in your Azure DevOps organization.
 
@@ -183,7 +187,7 @@ In this task, you will create a Personal Access Token (PAT) in Azure DevOps and 
 
 1. Select **+ New Token**.
 
-   ![](media/updatedghasimg4.png)
+   ![](media/july24.png)
 
 1. On **Create a new personal access token** window, enter the below values and click on **Create (4)**.
 
@@ -228,7 +232,7 @@ In this task, you will create a Personal Access Token (PAT) in Azure DevOps and 
 
 ## Task 2: Enable Advanced Security from Portal
 
-GitHub Advanced Security for Azure DevOps includes extra permissions for more levels of control around Advanced Security results and management. Be sure to adjust individual permissions for your repository.
+In this task, we enabled GitHub Advanced Security at the repository level and added security scanning tasks to the pipeline. A pull request was created to trigger a build, validating that vulnerabilities were detected. GitHub Advanced Security for Azure DevOps includes extra permissions for more levels of control around Advanced Security results and management. Be sure to adjust individual permissions for your repository.
 
 To enable Azure DevOps Advanced Security on your repositry, you can follow these steps:
 
@@ -431,4 +435,4 @@ In this lab, you have completed the following:
 - Enabled Advanced Security from the Portal.
 - Understand and Manage Advanced Security Permissions
 
-### You have successfully completed the lab!
+### You have successfully completed the lab! Click on "Next >>" to contine with your next lab
